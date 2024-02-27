@@ -1,0 +1,1062 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main
+{
+    width: 100%;
+    /* height: 1000px; */
+    background-color: white;
+}
+
+.landing
+{
+    /* background-image: url(./tigerimage.jpg);
+    background-size: cover; */
+    /* position: absolute; */
+    width: 100%;
+    /* height: 650px; */
+}
+
+.imgt
+{
+    width: 100%;
+    /* height: 550px; */
+}
+
+.upbar
+{
+    width: 100%;
+    height: 75px;
+    /* background-color: black; */
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.topic
+{
+    width: 6.5%;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paw
+{
+    height: 20px;
+    width: 20px;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 80%;
+}
+
+.bb
+{
+    height: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bba
+{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bba:hover
+{
+    color: black;
+    opacity: 90%;
+    transition: 0.5s;
+}
+
+.bb:hover
+{
+    color: black;
+    background-color: white;
+    opacity: 30%;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.buttons2
+{
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.bb2
+{
+    width: 17%;
+    height: 80%;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    opacity: 40%;
+    border: 0px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bb2a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bb2a:hover
+{
+    color: white;
+    opacity: 90%;
+    transition: 0.5s;
+}
+
+.bb2:hover
+{
+    background-color: black;
+    opacity: 45%;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.options
+{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.bb3
+{
+    width: 10%;
+    height: 90%;
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bb3:hover
+{
+    background-color: grey;
+    transition: 0.5s;
+    color: black;
+    cursor: pointer;
+}
+
+.bb3a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bb3a:hover
+{
+    color: black;
+    opacity: 90%;
+    transition: 0.5s;
+}
+
+/* .scrollopts
+{
+    position: fixed;
+} */
+
+.introhead
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.intro1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 480px;
+    /* background-color: orange; */
+}
+
+.img1
+{
+    width: 50%;
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 100%; */
+    border-radius: 25px;
+}
+
+.img11
+{
+    border-radius: 25px;
+    /* width: 80%;
+    height: 80%; */
+}
+
+.intro2
+{
+    width: 50%;
+    height: 100%;
+    padding-right: 50px;
+    /* background-image: url(./bg.jpg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.bg
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgg
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.introw
+{
+    width: 709px;
+    height: 480px;
+    position: absolute;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    box-sizing: border-box;
+    padding: 37.5px;
+}
+
+p
+{
+    background-color: white;
+    opacity: 70%;
+    font-size: 25px;
+    font-weight: 550;
+    padding: 5px;
+    cursor: default;
+    border-radius: 15px;
+}
+
+/* .classification
+{
+    height: auto;
+} */
+
+.classhead
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.class1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 480px;
+    /* background-color: orange; */
+}
+
+.img2
+{
+    width: 50%;
+    height: 100%;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 100%; */
+    border-radius: 25px;
+}
+
+.img22
+{
+    border-radius: 25px;
+
+}
+
+.class2
+{
+    width: 50%;
+    height: 100%;
+    padding-left: 50px;
+    /* background-image: url(./bg.jpg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.bg2
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgg2
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.classw
+{
+    width: 709px;
+    height: 550px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+li
+{
+    background-color: white;
+    opacity: 70%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    cursor: default;
+    border-radius: 15px;
+}
+
+.histhead
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hist1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 480px;
+    /* background-color: orange; */
+}
+
+.img3
+{
+    width: 50%;
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 100%; */
+    border-radius: 25px;
+}
+
+.img33
+{
+    border-radius: 25px;
+    /* width: 80%;
+    height: 80%; */
+}
+
+.hist2
+{
+    width: 50%;
+    height: 100%;
+    padding-right: 50px;
+    /* background-image: url(./bg.jpg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.bg3
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgg3
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.histw
+{
+    width: 709px;
+    height: 480px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 35px;
+}
+
+p
+{
+    background-color: white;
+    opacity: 70%;
+    font-size: 24px;
+    font-weight: 550;
+    padding: 5px;
+    cursor: default;
+    border-radius: 15px;
+}
+
+.anahead
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ana1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 480px;
+    /* background-color: orange; */
+}
+
+.img4
+{
+    width: 50%;
+    height: 100%;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 100%; */
+    border-radius: 25px;
+}
+
+.img44
+{
+    border-radius: 25px;
+    width: 85%;
+    height: 85%;
+
+}
+
+.ana2
+{
+    width: 50%;
+    height: 100%;
+    padding-left: 50px;
+    /* background-image: url(./bg.jpg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.bg4
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgg4
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.anaw
+{
+    width: 709px;
+    height: 550px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+li
+{
+    background-color: white;
+    opacity: 70%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    cursor: default;
+    border-radius: 15px;
+}
+
+.dshead
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ds1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 480px;
+    /* background-color: orange; */
+}
+
+.img5
+{
+    width: 50%;
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 100%; */
+    border-radius: 25px;
+}
+
+.img55
+{
+    border-radius: 25px;
+    /* width: 80%;
+    height: 80%; */
+}
+
+.ds2
+{
+    width: 50%;
+    height: 100%;
+    padding-right: 50px;
+    /* background-image: url(./bg.jpg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.bg5
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgg5
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.dsw
+{
+    width: 709px;
+    height: 480px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 37.5px;
+}
+
+p
+{
+    background-color: white;
+    opacity: 70%;
+    font-size: 24px;
+    font-weight: 550;
+    padding: 5px;
+    cursor: default;
+    border-radius: 15px;
+}
+
+.nshead
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ns1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 480px;
+    /* background-color: orange; */
+}
+
+.img6
+{
+    width: 50%;
+    height: 100%;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 100%; */
+    border-radius: 25px;
+}
+
+.img66
+{
+    border-radius: 25px;
+
+}
+
+.ns2
+{
+    width: 50%;
+    height: 100%;
+    padding-left: 50px;
+    /* background-image: url(./bg.jpg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.bg6
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgg6
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.nsw
+{
+    width: 709px;
+    height: 550px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+li
+{
+    background-color: white;
+    opacity: 70%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    cursor: default;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.resphead
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.resp1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 480px;
+    /* background-color: orange; */
+}
+
+.img7
+{
+    width: 50%;
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 100%; */
+    border-radius: 25px;
+}
+
+.img77
+{
+    border-radius: 25px;
+    /* width: 80%;
+    height: 80%; */
+}
+
+.resp2
+{
+    width: 50%;
+    height: 100%;
+    padding-right: 50px;
+    /* background-image: url(./bg.jpg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.bg7
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgg7
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.respw
+{
+    width: 709px;
+    height: 480px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 37.5px;
+}
+
+p
+{
+    background-color: white;
+    opacity: 70%;
+    font-size: 25px;
+    font-weight: 550;
+    padding: 5px;
+    cursor: default;
+    border-radius: 15px;
+}
+
+.rephead
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rep1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 480px;
+    /* background-color: orange; */
+}
+
+.img8
+{
+    width: 50%;
+    height: 100%;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 100%; */
+    border-radius: 25px;
+}
+
+.img88
+{
+    border-radius: 25px;
+
+}
+
+.rep2
+{
+    width: 50%;
+    height: 100%;
+    padding-left: 50px;
+    /* background-image: url(./bg.jpg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.bg8
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgg8
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.repw
+{
+    width: 709px;
+    height: 550px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+li
+{
+    background-color: white;
+    opacity: 70%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    cursor: default;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.exhead
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ex1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 480px;
+    /* background-color: orange; */
+}
+
+.img9
+{
+    width: 50%;
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 100%; */
+    border-radius: 25px;
+}
+
+.img99
+{
+    border-radius: 25px;
+    /* width: 80%;
+    height: 80%; */
+}
+
+.ex2
+{
+    width: 50%;
+    height: 100%;
+    padding-right: 50px;
+    /* background-image: url(./bg.jpg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.bg9
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgg9
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.exw
+{
+    width: 709px;
+    height: 480px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 37.5px;
+}
+
+p
+{
+    background-color: white;
+    opacity: 70%;
+    font-size: 25px;
+    font-weight: 550;
+    padding: 5px;
+    cursor: default;
+    border-radius: 15px;
+}
