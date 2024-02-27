@@ -1,0 +1,148 @@
+html{
+    scroll-behavior: smooth;
+    background-color: rgba(66, 43, 1, 0.432);
+}
+.topnav {
+    margin-left: -8px; 
+    background-color:  black;
+    position: relative;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: poppins;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav-right a:hover {
+    background-color: rgb(223, 213, 213);
+    color: rgb(66, 43, 1);
+  }
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav-right {
+    float: right;
+  }
+  .topnav {
+      position: fixed;
+      top:0;
+      color: white;
+      width: 100%;
+  }
+  .topnav1 {
+    margin-top: 54px;
+    margin-bottom: 20px;
+    color: black;
+    display: flex;
+    height: 50px;
+    padding-left: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-left: 44%;
+}
+.topnav1 a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 19px;
+    padding-left: 9px;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: poppins;
+  }
+
+  .text{
+    margin-top: 0px;
+    width: 1300px;
+    display: inline-flex;
+    
+  }
+
+  .textt{
+    margin-top: 10pxpx;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-family: arial;
+    text-align: justify;
+  }
+
+  .para{
+    font-size: 23px;
+    letter-spacing: 2px;
+    padding: 20px;
+    font-family: poppins;
+    text-align: justify;
+    font-weight: 1900px;
+  }
+  .nextext{
+    display: block;
+  }
+  .image{
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .conta{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+
+  .image1{
+    margin-top: 10px; 
+    margin-left: 40px;
+    width: 300px;
+    height: 450px;
+  }
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    padding-top: 4px;
+    height: 80px;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+  }
+  .main{
+    background-image: url(tigerimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+  .main::before
+  {
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(255,255,255,0.5);
+    z-index:-1;
+  }
+  .content
+{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+p::first-letter{
+  font-size: 150%;
+}
