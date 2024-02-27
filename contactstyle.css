@@ -1,0 +1,252 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+html{
+    scroll-behavior: smooth;
+    background-color: rgba(66, 43, 1, 0.432);
+}
+.topnav {
+    margin-left: -8px; 
+    background-color:  black;
+    position: relative;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: poppins;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav-right a:hover {
+    background-color: rgb(223, 213, 213);
+    color: rgb(66, 43, 1);
+  }
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav-right {
+    float: right;
+  }
+  .topnav {
+      position: fixed;
+      top: 0;
+      color: white;
+      width: 100%;
+  }
+  .topnav1 {
+    margin-top: 54px;
+    color: black;
+    display: flex;
+    height: 50px;
+    padding-left: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-left: 44%;
+}
+.topnav1 a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 19px;
+    padding-left: 9px;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: poppins;
+  }
+  .si1,.si2{
+    width: 300px;
+    height: 27px;
+    border-radius: 6px;
+    border-width: 1px;
+    padding-left:14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-color: gray;
+  }
+.si3,.si4,.si5{
+    display: block;
+    padding-top: 4px;
+    padding-left: 14px;
+    padding-bottom: 4px;
+    height: 27px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: grey;
+    width: 270px;
+    width: 300px;
+}
+.si6{
+    display: block;
+    margin-top: 20px;
+    width: 400px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+    background-color:  rgb(111, 79, 21);
+    color: white;
+    font-size: 25px;
+}
+.thank{
+    padding-top: 10px;
+    font-size: 30px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.con{
+    margin-top: 0;
+    font-size: 30px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+span{
+    color: blue;
+    cursor: pointer;
+}
+.contact1{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px black;
+    border-width: 5px;
+    border-color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;  
+    font-weight: bold;
+}
+
+.heading{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: poppins;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.list{
+    font-size: 23px;
+    font-weight: bold;
+    
+}
+.new{
+    font-family: poppins;
+    letter-spacing: 2px;
+    text-align: center;
+}
+li{
+    font-family: poppins;
+    letter-spacing: 2px;
+}
+.heading1{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center ;
+    font-family: poppins;
+    letter-spacing: 2px;
+}
+
+.ques{
+    font-size: 25px;
+    font-family: poppins;
+    letter-spacing: 2px;
+}
+.ques1{
+    font-size: 20px;
+    font-family: poppins;
+    letter-spacing: 2px;
+}
+
+.follow{
+    font-size: 35px;
+    font-weight: 500;
+    display: inline;
+    margin-top: 35px;
+    font-family: poppins;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.icons{
+    display: inline;
+    align-items: center;
+    cursor: pointer;      
+}
+.icons i{
+    font-size: 45px;
+    margin-left: 25px;
+    margin-top: 0px;
+}
+
+.social{
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    padding-top: 4px;
+    height: 50px;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+  }
+  .main{
+    background-image: url(tigerimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+  .main::before
+  {
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(255,255,255,0.5);
+    z-index:-1;
+  }
+  .content
+ {
+   padding-left: 10%;
+   padding-right: 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ }
+ p::first-letter{
+    font-size: 150%;
+  }
+  ul{
+    padding-left: 690px;
+  }
