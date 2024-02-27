@@ -1,0 +1,140 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+.topnav {
+  background-color: black;
+  position: relative;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: poppins;
+}
+/* Change the color of links on hover */
+.topnav-right a:hover {
+  background-color: #ddd;
+  color: rgb(66, 43, 1);
+}
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+.topnav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.museum {
+  margin-top: 28px;
+  padding:20px;
+  height: 50px;
+  font-size: 40px;
+  display: flex;
+  margin-left: -8px;
+  margin-right: -8px;
+  padding-bottom: 70px;
+}
+.museum a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 43%;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: 1000;
+  font-family: poppins;
+  text-align: center;
+}
+.hist, .subspecies , .exsubspecies
+{
+  padding-left:17px;
+  padding-right: 17px;
+  padding: 20px;
+}
+.para{
+  font-size: 23px;
+  letter-spacing: 2px;
+  padding: 20px;
+  font-family: poppins;
+  text-align: justify;
+  font-weight: 1900px;
+}
+.mainhistory{
+  font-size: 29px;
+  letter-spacing: 5px;
+  font-family: poppins;
+  padding: 20px;
+  font-weight: bolder;
+}
+.subhistory{
+  font-size: 25px;
+  letter-spacing: 3px;
+  padding:20px;
+  font-family: poppins;
+  font-weight: bolder;
+  overflow: auto;
+}
+img 
+{
+  display: inline-flex;
+}
+img
+{
+  margin-left: 90px;
+  margin-right: 80px;
+}
+.footer,.foot {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  padding-top: 15px;
+  height: 50px;
+  width: 100%;
+  background-color:black;
+  color: white;
+  text-align: center;
+}
+.main{
+  background-image: url(tigerimage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: -1;
+}
+.main::before
+{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+  background-color: rgba(255,255,255,0.5);
+  z-index:-1;
+  background-size: auto;
+}
+.content
+{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+p::first-letter{
+  font-size: 150%;
+}
