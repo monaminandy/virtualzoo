@@ -1,0 +1,146 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+.topnav {
+  background-color:  black;
+  position: relative;
+  z-index: 1;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+/* Change the color of links on hover */
+.topnav-right a:hover {
+  background-color: #ddd;
+  color: rgb(66, 43, 1);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+.topnav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+p{
+font-family: poppins;
+padding-top: 10px;
+padding-bottom: 20px;
+}
+
+
+.main{
+  min-height: 100vh;
+margin-top: 5%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.sub{
+display:inline-flex;
+align-items: center;
+justify-content: center;
+box-shadow: 1px 1px 5px black;
+border-width: 5px;
+border-color: white;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 3%;
+
+}
+
+.heading1{
+font-size: 35px;
+font-weight: bold;
+text-align: center ;
+letter-spacing: 5px;;
+}
+
+.step{
+font-size: 25px;
+letter-spacing: 2px;
+}
+span{
+font-weight: bold;
+}
+.buttonns{
+height: 50px;
+width: 400px;
+display: block;
+  margin-top: 6%;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  height: 45px;
+  border-radius: 6px;
+  border: none;
+  background-color:  rgb(111, 79, 21);
+  color: white;
+  font-size: 25px;
+  margin-left: 160px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color:blue;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  height: 50px;
+  width: 100%;
+  background-color:black;
+  color: white;
+  text-align: center;
+  
+}
+.video
+{
+  width:max-content;
+  padding: 2em;
+  margin: 3em auto;
+}
+.acctual{
+  background-image: url(tigerimage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  background-position: center;
+}
+.acctual::before
+{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+  background-color: rgba(255,255,255,0.5);
+  z-index:-1;
+}
+p::first-letter{
+  font-size: 150%;
+}
